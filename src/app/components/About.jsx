@@ -63,6 +63,7 @@ const About = () => {
           variants={slideIn("right", "tween", 0.2, 1)}
           initial="hidden"
           whileInView="visible"
+          viewport={{ once: true, amount: 0.25 }}
         />
       </div>
     </section>
