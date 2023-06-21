@@ -116,6 +116,7 @@ const Projects = () => {
         variants={fadeIn("", "tween", 0.2, 1)}
         initial="hidden"
         whileInView="visible"
+        viewport={{ once: true, amount: 0.25 }}
       >
         {loading
           ? [...Array(6).keys()].map((i) => <LoadingProjectSkeleton key={i} />)

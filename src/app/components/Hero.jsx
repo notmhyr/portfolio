@@ -38,6 +38,7 @@ const Hero = () => {
             variants={textContainerVariant}
             initial="hidden"
             animate="visible"
+            viewport={{ once: true, amount: 0.25 }}
           >
             <div className="flex gap-2">
               {words1.map((word, index) => (

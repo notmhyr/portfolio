@@ -74,6 +74,7 @@ const Contact = () => {
           variants={slideIn("left", "tween", 0.2, 1)}
           initial="hidden"
           whileInView="visible"
+          viewport={{ once: true, amount: 0.25 }}
           className="lg:w-[590px] lg:h-[590px] md:w-[450px] md:h-[450px] sm:w-[420px] sm:h-[420px] xs:w-[410px] xs:h-[410px] w-[320px] h-[320px]  flex-1"
         >
           <EarthCanvas />
@@ -84,6 +85,7 @@ const Contact = () => {
           variants={fadeIn("left", "tween", 0.2, 1)}
           initial="hidden"
           whileInView="visible"
+          viewport={{ once: true, amount: 0.25 }}
           onSubmit={(e) => {
             e.preventDefault();
             toast.promise(handleSubmit, {

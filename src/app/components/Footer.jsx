@@ -12,6 +12,7 @@ const Footer = () => {
         variants={footerVariants}
         initial="hidden"
         whileInView="visible"
+        viewport={{ once: true, amount: 0.25 }}
         id="footer"
         className="relative max-w-[1350px] mx-auto flex flex-col gap-4 pb-[40px] mt-14"
       >

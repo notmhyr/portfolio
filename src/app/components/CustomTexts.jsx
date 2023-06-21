@@ -11,6 +11,7 @@ export const SmallTextMotion = ({ text, textStyles }) => {
       variants={textContainerVariant}
       initial="hidden"
       whileInView="visible"
+      viewport={{ once: true, amount: 0.25 }}
     >
       {Array.from(text).map((letter, index) => (
         <motion.span key={index} variants={textVariant}>
@@ -28,6 +29,7 @@ export const TitleTextMotion = ({ text, textStyles }) => {
       variants={textVariant}
       initial="hidden"
       whileInView="visible"
+      viewport={{ once: true, amount: 0.25 }}
     >
       {text}
     </motion.h2>

@@ -23,6 +23,7 @@ const About = () => {
           variants={fadeIn("right", "tween", 0.2, 1)}
           initial="hidden"
           whileInView="visible"
+          viewport={{ once: true, amount: 0.25 }}
         >
           <div className="flex gap-5">
             <div className="p-4 flex flex-col gap-2 items-center justify-center w-[110px] h-[110px] rounded-[24px] bg-[#323f5d]">

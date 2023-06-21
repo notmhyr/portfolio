@@ -48,6 +48,7 @@ const Skills = () => {
         variants={fadeIn("", "tween", 0.2, 1)}
         initial="hidden"
         whileInView="visible"
+        viewport={{ once: true, amount: 0.25 }}
       >
         {loading
           ? [...Array(12).keys()].map((i) => <LoadingSkillSkeleton key={i} />)
