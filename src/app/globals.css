@@ -82,7 +82,6 @@ html {
   height: 55%;
   left: 30%;
   top: 10%;
-  overflow-y: hidden;
 
   background: rgba(45, 72, 152, 0.75);
   filter: blur(200px);
