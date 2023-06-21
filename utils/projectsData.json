@@ -1,0 +1,97 @@
+[
+  {
+    "name": "NFT marketplace",
+    "description": "In this decentralized website you can create NFT, list NFTs for sale, create auction and other users can buy, participate in auction or place offer with WETH token. I built smart contract, frontend and backend of this fullstack project and used Next js apis and Mongo db for storing data from Wagmi event listeners.",
+    "img": "https://i.ibb.co/vjktHhL/nft-marketplace.jpg",
+    "github": {
+      "contract": "https://github.com/notmhyr/nft-marketplace-smartContract",
+      "frontend": "https://github.com/notmhyr/decentralized-exchange-client"
+    },
+    "live": "https://galaxy-nft-marketplace.netlify.app",
+    "techs": [
+      { "name": "Solidity", "color": "#c2c0c0" },
+      { "name": "Hardhat", "color": "#f0ff4f" },
+      { "name": "Next js", "color": "#4fd6ff" },
+      { "name": "Wagmi", "color": "#a74fff" },
+      { "name": "Mongo db", "color": "#00c414" }
+    ]
+  },
+
+  {
+    "name": "Upgradable contract & DAO",
+    "description": "This contract is upgradable contract with power of transparent proxy, it means the contract can be updated but the difference is upgradeability is powered by the DAO so in order to upgrade the smart contract someone needs to create proposal and others can vote on it if they like implementation contract get upgraded to the new one.",
+    "img": "https://i.ibb.co/SvmFM4k/upgradable-contract.png",
+    "github": {
+      "contract": "https://github.com/notmhyr/upgradable-contract-DAO",
+      "frontend": ""
+    },
+    "live": "",
+    "techs": [
+      { "name": "Solidity", "color": "#c2c0c0" },
+      { "name": "Hardhat", "color": "#f0ff4f" }
+    ]
+  },
+
+  {
+    "name": "Lottery",
+    "description": "In this platform any one can participate in the lottery by paying the specified entrance fee in ETH and winner get picked randomly after ending. I used different Oracles as follows price feed for getting prices, Chainlink VRF for random numbers and Automation for calling a function automatically.",
+    "img": "https://i.ibb.co/ygxj1xh/lottery.jpg",
+    "github": {
+      "contract": "https://github.com/notmhyr/Lottery-smartContract",
+      "frontend": "https://github.com/notmhyr/Lottery-client"
+    },
+    "live": "https://lottery-sepolia.netlify.app/",
+    "techs": [
+      { "name": "Solidity", "color": "#c2c0c0" },
+      { "name": "Hardhat", "color": "#f0ff4f" },
+      { "name": "Next js", "color": "#4fd6ff" },
+      { "name": "Wagmi", "color": "#a74fff" }
+    ]
+  },
+
+  {
+    "name": "DEX with Uniswap sdk",
+    "description": "This is a decentralized exchange by using the Uniswap SDK where anyone can exchange their tokens to other tokens.",
+    "img": "https://i.ibb.co/yQgmvxs/dex.jpg",
+    "github": {
+      "contract": "",
+      "frontend": "https://github.com/notmhyr/decentralized-exchange-client"
+    },
+    "live": "https://decentralized-exchange.netlify.app/",
+    "techs": [
+      { "name": "Next js", "color": "#4fd6ff" },
+      { "name": "Scss", "color": "#f23dec" }
+    ]
+  },
+
+  {
+    "name": "Multi signature wallet",
+    "description": "This is multi signature wallet is powered by smart contract unlike any other wallets this wallet can have multiple owners, in order to any of owners to be able to do actions in the wallet they need to create a transaction in the contract and other owners should approve the transaction to get executed.",
+    "img": "https://i.ibb.co/q1wdnXf/multi-sig.webp",
+    "github": {
+      "contract": "https://github.com/notmhyr/multsig-wallet",
+      "frontend": ""
+    },
+    "live": "",
+    "techs": [
+      { "name": "Solidity", "color": "#c2c0c0" },
+      { "name": "Hardhat", "color": "#f0ff4f" }
+    ]
+  },
+
+  {
+    "name": "Amazon clone",
+    "description": "As the title suggests this is minimal version of Amazon website, where users can add products to their cart and proceed to checkout by filling their information and pay the money by get navigated to the Stripe checkout.",
+    "img": "https://i.ibb.co/h7JsWcr/amazon.jpg",
+    "github": {
+      "contract": "",
+      "frontend": "https://github.com/notmhyr/amazon-clone"
+    },
+    "live": "https://fake-amazon-store.netlify.app/",
+    "techs": [
+      { "name": "Next js", "color": "#4fd6ff" },
+      { "name": "Mongo db", "color": "#00c414" },
+      { "name": "Scss", "color": "#f23dec" }
+    ]
+  }
+]

@@ -1,0 +1,14 @@
+[
+  { "name": "Html", "img": "https://i.ibb.co/s6b3H1c/html.png" },
+  { "name": "Css", "img": "https://i.ibb.co/mGdqDgc/css.png" },
+  { "name": "Tailwind", "img": "https://i.ibb.co/qBMtPN6/tailwind.png" },
+  { "name": "Javascript", "img": "https://i.ibb.co/nk5ns28/javascript.png" },
+  { "name": "React", "img": "https://i.ibb.co/Br94m2g/react.png" },
+  { "name": "Next js", "img": "https://i.ibb.co/8s92dfp/next.png" },
+  { "name": "Solidity", "img": "https://i.ibb.co/Jyr8ZQV/solidity.png" },
+  { "name": "Hardhat", "img": "https://i.ibb.co/r3NQb1V/hardhat.png" },
+  { "name": "Ethers js", "img": "https://i.ibb.co/cQS1xHm/ethers.png" },
+  { "name": "Wagmi", "img": "https://i.ibb.co/k33gMyF/wagmi.png" },
+  { "name": "Mongo db", "img": "https://i.ibb.co/Jk7vkVK/mongodb.png" },
+  { "name": "Git", "img": "https://i.ibb.co/gmBG7hF/git.png" }
+]
